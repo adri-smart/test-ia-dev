@@ -1,0 +1,27 @@
+# KAN-464: Core dependencies
+# Flask for web server
+flask
+gunicorn
+
+# LangChain and LangGraph for conversational AI
+langchain
+langgraph
+langchain_google_genai
+
+# Google Cloud for Gemini
+google-cloud-aiplatform
+
+# Database connection
+sqlalchemy
+psycopg2-binary
+
+# Data manipulation and analysis
+pandas
+numpy
+scikit-learn
+
+# Configuration
+python-dotenv
+
+# For HTTP requests
+httpx
