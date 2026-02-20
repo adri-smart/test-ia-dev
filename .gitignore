@@ -111,6 +111,15 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Playwright test artifacts
+qa/node_modules/
+qa/test-results/
+qa/playwright-report/
+qa/playwright/.cache/
+qa/.env
+qa/.env.*
+!qa/.env.example
+
 # Misc
 .DS_Store
 *.pem

@@ -1,0 +1,23 @@
+{
+  "name": "qa-e2e-playwright",
+  "version": "1.0.0",
+  "description": "E2E tests for the Conversational Agent project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "postinstall": "playwright install --with-deps"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing"
+  ],
+  "author": "QA Automation Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.3"
+  }
+}
